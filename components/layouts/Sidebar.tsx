@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { SidebarDetail } from "./SidebarDetail";
-import { SidebarIcon } from "./SidebarIcon";
+import SidebarIcon from "./SidebarIcon";
 
 const Sidebar = () => {
   const [path, setPath] = useState<string>("");

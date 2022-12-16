@@ -1,12 +1,18 @@
-import Icon from "../src/images/main-pc2.JPG";
+import Image from 'next/image';
 
 function SidebarIcon() {
   return (
     <div className="SidebarIcon">
-      <img src={Icon} alt="" />
+      <Image 
+        src="/images/main-pc2.jpg" 
+        alt="profile" 
+        width={400} 
+        height={267}
+        className="image"
+        />
       <p>test@gmail.com</p>
     </div>
   );
-}
+};
 
 export default SidebarIcon;

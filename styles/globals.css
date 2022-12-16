@@ -41,6 +41,23 @@
   transition-duration: 0.3s;
 }
 
+.SidebarIcon {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.SidebarIcon p {
+  color: white;
+}
+
+.SidebarIcon .image {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;  
+}
+
 .row #icon {
   flex: 30%;
   display: grid;
